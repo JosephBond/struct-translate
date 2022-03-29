@@ -5,6 +5,7 @@ use libc::c_void;
 struct Tester {
     fieldone : i32,
     fieldtwo: *mut libc::c_void,
+    fieldthree: Box<Option<i32>>,
 }
 
 
